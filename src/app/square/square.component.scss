@@ -1,0 +1,22 @@
+.square {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.example-ripple-container {
+  margin-left: 38%;
+  margin-top: 5%;
+  cursor: crosshair;
+  text-align: center;
+
+  width: 300px;
+  height: 300px;
+  line-height: 300px;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+
+  -webkit-user-drag: none;
+  -webkit-tap-highlight-color: transparent;
+}

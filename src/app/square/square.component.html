@@ -1,0 +1,20 @@
+<div class="square" *ngIf="random != undefined">
+  <h1>Generate Random Circles</h1>
+  <h1>{{ random }}</h1>
+  <button mat-mini-fab color="accent" (click)="handleClick()">
+    <mat-icon>add</mat-icon>
+  </button>
+
+  <div
+    *ngIf="random != 0"
+    class="example-ripple-container mat-elevation-z4"
+    matRipple
+    [matRippleCentered]="centered"
+    [matRippleDisabled]="disabled"
+    [matRippleUnbounded]="unbounded"
+    [matRippleRadius]="random"
+    matRippleColor="red"
+  >
+    Click to display Circle
+  </div>
+</div>
